@@ -17,7 +17,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoal text-ivory/80">
+    <footer id="contact" className="bg-charcoal text-ivory/80">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="font-serif text-3xl tracking-[0.18em] text-ivory">

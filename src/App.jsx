@@ -10,7 +10,6 @@ import Gallery from './components/Gallery';
 import CityView from './components/CityView';
 import Reviews from './components/Reviews';
 import Reservation from './components/Reservation';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -29,7 +28,6 @@ export default function App() {
         <CityView />
         <Reviews />
         <Reservation />
-        <Contact />
       </main>
       <Footer />
     </div>

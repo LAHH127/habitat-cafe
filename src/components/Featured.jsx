@@ -31,6 +31,11 @@ export default function Featured() {
                   className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-transparent"
                   aria-hidden="true"
                 />
+                {item.illustration && (
+                  <span className="absolute right-4 top-4 rounded-full bg-charcoal/55 px-3 py-1 text-[9px] uppercase tracking-[0.22em] text-ivory/85 backdrop-blur-sm">
+                    Illustrative image
+                  </span>
+                )}
                 <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7">
                   <p className="text-[10px] uppercase tracking-[0.3em] text-amber">{item.category}</p>
                   <h3 className="mt-2 font-serif text-2xl text-ivory">{item.name}</h3>

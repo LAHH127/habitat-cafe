@@ -31,6 +31,7 @@ const item = (category, name, desc, price, opts = {}) => ({
   featured: !!opts.featured,
   sub: opts.sub || null,
   image: opts.image || null,
+  illustration: !!opts.illustration,
 });
 
 export const items = [
@@ -38,7 +39,7 @@ export const items = [
   item('Breakfast', 'Classic Eggs on Toast', 'Eggs any style on sourdough, whipped butter, chives.', 285),
   item('Breakfast', 'Masala Omelette', 'Three-egg omelette, onion, chilli, coriander, toasted bread.', 265, { veg: true }),
   item('Breakfast', 'Ricotta Hotcakes', 'Whipped ricotta pancakes, honey butter, seasonal fruit.', 325, { veg: true }),
-  item('Breakfast', 'Habitat Big Breakfast', 'Eggs any style, chicken sausage, grilled tomato, hash browns, sourdough.', 425, { featured: true, image: '/images/dishes/dish-1.jpg' }),
+  item('Breakfast', 'Habitat Big Breakfast', 'Eggs any style, chicken sausage, grilled tomato, hash browns, sourdough.', 425, { featured: true, image: '/images/dishes/dish-1.jpg', illustration: true }),
   item('Breakfast', 'Avocado Sourdough', 'Smashed avocado, feta, chilli oil, toasted seeds.', 395, { veg: true }),
   item('Breakfast', 'Granola & Yoghurt Bowl', 'House granola, Greek yoghurt, berry compote.', 295, { veg: true }),
 
@@ -47,7 +48,7 @@ export const items = [
   item('Small Plates', 'Hummus & Pita', 'Chickpea hummus, smoked paprika, warm pita.', 365, { veg: true }),
   item('Small Plates', 'Loaded Nachos', 'Cheese sauce, salsa, beans, jalapeños, sour cream.', 345, { veg: true }),
   item('Small Plates', 'Crispy Corn', 'Charred corn, peri-peri butter, lime.', 315, { veg: true }),
-  item('Small Plates', 'Paneer Tikka Skewers', 'Char-grilled paneer, mint chutney, pickled onion.', 385, { veg: true, featured: true, image: '/images/dishes/dish-2.jpg' }),
+  item('Small Plates', 'Paneer Tikka Skewers', 'Char-grilled paneer, mint chutney, pickled onion.', 385, { veg: true, featured: true, image: '/images/dishes/dish-2.jpg', illustration: true }),
   item('Small Plates', 'Chicken Sliders', 'Mini brioche, fried chicken, chipotle mayo.', 395),
 
   // Soups & Salads
@@ -74,7 +75,7 @@ export const items = [
   item('Pasta', 'Chicken Carbonara', 'Egg, parmesan, crispy chicken, black pepper.', 545),
 
   // Asian / Thai
-  item('Asian / Thai', 'Pad Thai', 'Rice noodles, tamarind, tofu, peanuts, bean sprouts.', 545, { veg: true, featured: true, image: '/images/dishes/dish-3.jpg' }),
+  item('Asian / Thai', 'Pad Thai', 'Rice noodles, tamarind, tofu, peanuts, bean sprouts.', 545, { veg: true, featured: true, image: '/images/dishes/dish-3.jpg', illustration: true }),
   item('Asian / Thai', 'Thai Green Curry', 'Coconut curry, vegetables, jasmine rice.', 525, { veg: true }),
   item('Asian / Thai', 'Hakka Noodles', 'Wok-tossed noodles, vegetables, burnt garlic.', 425, { veg: true }),
   item('Asian / Thai', 'Kung Pao Chicken', 'Chicken, peanuts, dried chilli, sichuan pepper.', 545),
@@ -82,7 +83,7 @@ export const items = [
   item('Asian / Thai', 'Ramen Bowl', 'Noodles, rich broth, soft egg, greens, chilli oil.', 575),
 
   // Indian
-  item('Indian', 'Butter Chicken', 'Charcoal chicken, tomato-fenugreek gravy, cream.', 595, { featured: true, image: '/images/dishes/dish-4.jpg' }),
+  item('Indian', 'Butter Chicken', 'Charcoal chicken, tomato-fenugreek gravy, cream.', 595, { featured: true, image: '/images/dishes/dish-4.jpg', illustration: true }),
   item('Indian', 'Dal Makhani', 'Black lentils, butter, cream, slow-cooked overnight.', 445, { veg: true }),
   item('Indian', 'Hyderabadi Chicken Biryani', 'Aged basmati, saffron, fried onion, raita.', 595),
   item('Indian', 'Veg Biryani', 'Aged basmati, vegetables, mint, raita.', 495, { veg: true }),
@@ -90,7 +91,7 @@ export const items = [
   item('Indian', 'Tandoori Mixed Grill', 'Chicken tikka, seekh kebab, tandoori wings.', 795),
 
   // Desserts
-  item('Desserts', 'Tiramisu', 'Espresso-soaked savoiardi, mascarpone, cocoa.', 365, { veg: true, featured: true, image: '/images/dishes/dish-5.jpg' }),
+  item('Desserts', 'Tiramisu', 'Espresso-soaked savoiardi, mascarpone, cocoa.', 365, { veg: true, featured: true, image: '/images/dishes/dish-5.jpg', illustration: true }),
   item('Desserts', 'Basque Cheesecake', 'Burnt-top cheesecake, berry coulis.', 395, { veg: true }),
   item('Desserts', 'Chocolate Lava Cake', 'Molten centre, vanilla ice cream.', 345, { veg: true }),
   item('Desserts', 'Gulab Jamun Cheesecake', 'Cheesecake base, gulab jamun, rose drizzle.', 385, { veg: true }),
@@ -105,7 +106,7 @@ export const items = [
   item('Coffee', 'Flat White', 'Double ristretto, velvet microfoam.', 265),
   item('Coffee', 'Mocha', 'Espresso, chocolate, steamed milk.', 285),
   item('Coffee', 'Cold Coffee', 'Blended cold coffee, whipped cream.', 275),
-  item('Coffee', 'Vietnamese Cold Coffee', 'Dark robusta, condensed milk, served over ice.', 295, { featured: true, image: '/images/dishes/dish-6.jpg' }),
+  item('Coffee', 'Vietnamese Cold Coffee', 'Dark robusta, condensed milk, served over ice.', 295, { featured: true, image: '/images/dishes/dish-6.jpg', illustration: true }),
 
   // Beverages
   item('Beverages', 'Masala Chai', 'Assam tea, ginger, cardamom, milk.', 165, { sub: 'Classics' }),

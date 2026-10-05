@@ -13,18 +13,17 @@ export const galleryFilters = [
   { key: 'details', label: 'Details' },
 ];
 
-// 12 slots — swap file names / add entries to match the real photo set.
+// All photographs are original Habitat Cafe photos.
 export const galleryItems = [
-  g('01.jpg', 'rooftop', 'Rooftop seating under the open sky'),
-  g('02.jpg', 'day', 'Morning light over the terrace'),
-  g('03.jpg', 'details', 'Terracotta arches up close'),
-  g('04.jpg', 'food', 'From the kitchen'),
-  g('05.jpg', 'night', 'Amber evenings at Habitat'),
-  g('06.jpg', 'rooftop', 'Golden hour on the terrace'),
-  g('07.jpg', 'day', 'Greenery between the tables'),
-  g('08.jpg', 'food', 'Plates worth returning for'),
-  g('09.jpg', 'night', 'Late-night conversations'),
-  g('10.jpg', 'details', 'Curves, textures and detail'),
-  g('11.jpg', 'food', 'Something sweet'),
-  g('12.jpg', 'rooftop', 'Above the city'),
+  g('01.jpg', 'night', 'The Habitat sign lights up at dusk'),
+  g('02.jpg', 'rooftop', 'Terrace seating under the open sky'),
+  g('03.jpg', 'details', 'The coffee bar, mid-pour'),
+  g('04.jpg', 'details', 'The spiral staircase up to the terrace'),
+  g('05.jpg', 'rooftop', 'Blue-hour skyline from the rooftop'),
+  g('06.jpg', 'night', 'String lights after dark'),
+  g('07.jpg', 'day', 'The courtyard on a bright afternoon'),
+  g('08.jpg', 'day', 'Morning sun on the curved bench'),
+  g('09.jpg', 'rooftop', 'Greenery between the tables'),
+  g('10.jpg', 'night', 'Evenings in the arched courtyard'),
+  g('11.jpg', 'food', 'Grilled plates from the Habitat kitchen'),
 ];

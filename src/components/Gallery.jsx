@@ -31,7 +31,7 @@ export default function Gallery() {
   const step = (dir) => setLightbox((i) => (i + dir + filtered.length) % filtered.length);
 
   return (
-    <section id="gallery" className="bg-cream py-24 lg:py-32">
+    <section id="gallery" className="bg-cream py-14 lg:py-20">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Gallery"

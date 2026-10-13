@@ -45,7 +45,7 @@ export default function Menu() {
   }, [q, searching, showAll, tab]);
 
   return (
-    <section id="menu" className="py-24 lg:py-32">
+    <section id="menu" className="py-14 lg:py-20">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="The Menu"

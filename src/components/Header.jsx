@@ -6,9 +6,10 @@ import { site } from '../data/site';
 const links = [
   { label: 'Home', href: '#home' },
   { label: 'Our Story', href: '#story' },
+  { label: 'Favourites', href: '#favourites' },
   { label: 'Menu', href: '#menu' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Gallery', href: '#gallery' },
+  { label: 'Reviews', href: '#reviews' },
   { label: 'Contact', href: '#contact' },
 ];
 

@@ -43,7 +43,7 @@ export default function Reservation() {
   };
 
   return (
-    <section id="reserve" className="py-24 lg:py-32">
+    <section id="reserve" className="py-14 lg:py-20">
       <div className="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-5 lg:gap-16">
         <Reveal className="lg:col-span-2">
           <p className="text-[11px] uppercase tracking-[0.35em] text-terracotta">Reservations</p>

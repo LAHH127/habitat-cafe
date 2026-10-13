@@ -4,7 +4,7 @@ import Reveal from './Reveal';
 
 export default function Intro() {
   return (
-    <section id="story" className="overflow-hidden py-24 lg:py-36">
+    <section id="story" className="overflow-hidden py-14 lg:py-20">
       <div className="mx-auto grid max-w-7xl items-center gap-20 px-5 sm:px-8 lg:grid-cols-12 lg:gap-10">
         <Reveal className="relative lg:col-span-6">
           <div

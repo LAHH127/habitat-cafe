@@ -62,16 +62,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      <a
-        href="#story"
-        className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-ivory/70 transition-colors hover:text-ivory"
-        aria-label="Scroll down to our story"
-      >
-        <span className="block text-center text-[9px] uppercase tracking-[0.35em] opacity-80">
-          Scroll
-        </span>
-      </a>
     </section>
   );
 }
